@@ -1,71 +1,38 @@
-class FoodData {
-  static const List<Map<String, dynamic>> mapFood = [
-    {
-      "food_name": "PREKSU Ayam Geprek Susu",
-      "restaurant": "PREKSU",
-      "img_food":
-          "https://amiablefoods.com/wp-content/uploads/original-and-spicy-crispy-chicken-recipe-image-300x300.jpg",
-      "distance": 2.2,
-      "rating": 4.6,
-    },
-    {
-      "food_name": "Kebab Bosman",
-      "restaurant": "Kebab Bosman - Sinduadi",
-      "img_food":
-          "https://franchisekebab.com/wp-content/uploads/2021/01/franchise-kebab-300x300.jpg",
-      "distance": 2.3,
-      "rating": 4.6,
-    },
-    {
-      "food_name": "Krisbar SUSI Kripsi Bakar",
-      "restaurant": "Krisbar",
-      "img_food":
-          "https://christieathome.com/wp-content/uploads/2020/10/Facetune_06-10-2020-15-37-58-300x300.jpg",
-      "distance": 1.2,
-      "rating": 4.6,
-    },
-    {
-      "food_name": "Susu Sarjana - UNY",
-      "restaurant": "Susu Sarjana",
-      "img_food":
-          "https://gippslandjersey.com.au/wp-content/uploads/2019/11/Light-milk-300x300.jpeg",
-      "distance": 0.8,
-      "rating": 4.6,
-    },
-  ];
+import 'package:flutter/material.dart';
 
-  static const List<Map<String, dynamic>> mapFoodOrderAgain = [
+class MessagesData {
+  static const List<Map<String, dynamic>> mapNotification = [
     {
-      "food_name": "PREKSU Ayam Geprek Susu",
-      "restaurant": "PREKSU",
-      "img_food":
-          "https://amiablefoods.com/wp-content/uploads/original-and-spicy-crispy-chicken-recipe-image-300x300.jpg",
-      "distance": 2.2,
-      "rating": 4.6,
+      "title": "Bayar lewat grab sekarang, cek hadiahnya!",
+      "icon": Icons.loyalty,
+      "day": "Sat",
+      "shortContent": "Belum bayar tagihan bikin kepikiran",
+      "type": "Offer",
+      "isRead": false,
     },
     {
-      "food_name": "Kebab Bosman",
-      "restaurant": "Kebab Bosman - Sinduadi",
-      "img_food":
-          "https://franchisekebab.com/wp-content/uploads/2021/01/franchise-kebab-300x300.jpg",
-      "distance": 2.3,
-      "rating": 4.6,
+      "title": "Waktunya jalan hemat!",
+      "icon": Icons.loyalty,
+      "day": "Thu",
+      "shortContent": "Pasti diskon s.d Rp4rb jalan pake Grab",
+      "type": "Offer",
+      "isRead": true,
     },
     {
-      "food_name": "Krisbar SUSI Kripsi Bakar",
-      "restaurant": "Krisbar",
-      "img_food":
-          "https://christieathome.com/wp-content/uploads/2020/10/Facetune_06-10-2020-15-37-58-300x300.jpg",
-      "distance": 1.2,
-      "rating": 4.6,
+      "title": "Promo GrabCar",
+      "icon": Icons.loyalty,
+      "day": "Wed",
+      "shortContent": "Kita Hadir, buat kamu yang harus jalan!",
+      "type": "Offer",
+      "isRead": true,
     },
     {
-      "food_name": "Susu Sarjana - UNY",
-      "restaurant": "Susu Sarjana",
-      "img_food":
-          "https://gippslandjersey.com.au/wp-content/uploads/2019/11/Light-milk-300x300.jpeg",
-      "distance": 0.8,
-      "rating": 4.6,
+      "title": "Promo cuma 2 hari!",
+      "icon": Icons.loyalty,
+      "day": "30 Aug",
+      "shortContent": "DISKON s.d. 40% khusus pelanggan Tri",
+      "type": "Offer",
+      "isRead": false,
     },
   ];
 }
